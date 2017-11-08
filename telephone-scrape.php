@@ -95,20 +95,24 @@ function telephone_scrape($url){
 /* telephone_scrape() function
 /*
 /* example:
-/* print telephone_scrape('http://www.example.com');
-/*
+
+print telephone_scrape('http://www.example.com');
+
 /* To collect phone numbers from a list of web
 /* pages, pass an array of URLs to telephone_scrape()
 /*
 /* example:
-/* $urls = array(	'http://www.example.com/contact.html',
-/*					'http://www.example.com/about.html',
-/*					'http://www.example.com/blog.html'
-/*					);
-/*
-/* foreach ($urls as $url){
-/*		print telephone_scrape( $url );
-/* }
+
+$urls = array(
+	'http://www.example.com/contact.html',
+	'http://www.example.com/about.html',
+	'http://www.example.com/blog.html'
+);
+
+foreach ($urls as $url){
+	print telephone_scrape( $url );
+}
+
 /* -------------------------------------------------- */
 
 
