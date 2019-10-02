@@ -4,11 +4,13 @@
 
 To collect phone numbers from a single web page, pass a url directly to the telephone_scrape() function.
 
-`print telephone_scrape('http://www.example.com');`
+```php
+print telephone_scrape('http://www.example.com');`
+```
 
 To collect phone numbers from a list of web pages, pass an array of URLs to telephone_scrape()
 
-```
+```php
 $urls = array(
 	'http://www.example.com/contact.html',
 	'http://www.example.com/about.html',
